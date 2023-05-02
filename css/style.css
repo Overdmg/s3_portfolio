@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+   }
+
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto; 
+}
+
+nav {
+    background-color: rgb(69, 59, 59);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;      
+    
+    min-height: 8vh;
+    padding-top: 10px;
+    font-size: 40px;
+    
+}
+
+nav li {
+    display: inline-block;
+}
+
+li > a {
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+section {
+    display: flex;
+    
+}
+
+article {
+    flex: 1;
+    padding-right: 40px;     
+    
+}
+
+
+
+.s1 {
+   
+    background-image: url("../logos/italian-food-background-dark_1220-4144.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+   
+   
+}
+.a1 {
+    color: white;
+    text-align: right;
+    padding-left: 50px;
+
+}
+
+
+.tbg {
+    width: 80%;
+    height: 250px;
+    border: 1px solid #e4ea49;
+    border-radius: 8px;
+    position: sticky;
+ 
+ }
+
+
+footer {
+    display: grid;  
+    justify-content: center;
+    text-align: center;
+}
+
+footer div {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+
+div > img {
+    width: 60px;
+}
+
+.ln {
+    margin-right: 25px auto;   
+    height: 1em;  
+
+}
+
+.s2 > article {    
+    border: 1px solid rgb(69, 59, 59);
+    color: rgb(0, 0, 0);
+    padding: 10px;    
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.img2 {
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+}
